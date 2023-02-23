@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Accessory</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Accessories</value>
+    </caseValues>
+    <fields>
+        <label><!-- Accessory Type --></label>
+        <name>Accessory_Type__c</name>
+        <picklistValues>
+            <masterLabel>Beauty</masterLabel>
+            <translation><!-- Beauty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Books</masterLabel>
+            <translation><!-- Books --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronics</masterLabel>
+            <translation><!-- Electronics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fashion</masterLabel>
+            <translation><!-- Fashion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Furniture</masterLabel>
+            <translation><!-- Furniture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home</masterLabel>
+            <translation><!-- Home --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobiles</masterLabel>
+            <translation><!-- Mobiles --></translation>
+        </picklistValues>
+    </fields>
+    <recordTypes>
+        <label><!-- Non-Prime --></label>
+        <name>Non_Prime</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Prime --></label>
+        <name>Prime</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
