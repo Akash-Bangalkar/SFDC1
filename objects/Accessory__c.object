@@ -154,6 +154,15 @@
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
     <fields>
+        <fullName>Accessory_ID__c</fullName>
+        <displayFormat>AC-{0}</displayFormat>
+        <externalId>false</externalId>
+        <label>Accessory ID</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
         <fullName>Accessory_Type__c</fullName>
         <externalId>false</externalId>
         <label>Accessory Type</label>
