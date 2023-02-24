@@ -524,24 +524,15 @@
          </valueSettings>
          <valueSettings>
             <controllingFieldValue>USA</controllingFieldValue>
-            <controllingFieldValue>UK</controllingFieldValue>
-            <controllingFieldValue>INDIA</controllingFieldValue>
             <valueName>NY</valueName>
          </valueSettings>
          <valueSettings>
             <controllingFieldValue>USA</controllingFieldValue>
-            <controllingFieldValue>UK</controllingFieldValue>
-            <controllingFieldValue>INDIA</controllingFieldValue>
             <valueName>MH</valueName>
          </valueSettings>
          <valueSettings>
             <controllingFieldValue>USA</controllingFieldValue>
-            <controllingFieldValue>UK</controllingFieldValue>
             <valueName>TN</valueName>
-         </valueSettings>
-         <valueSettings>
-            <controllingFieldValue>USA</controllingFieldValue>
-            <valueName>LN</valueName>
          </valueSettings>
       </valueSet>
    </fields>
