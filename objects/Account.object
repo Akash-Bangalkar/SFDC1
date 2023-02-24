@@ -528,10 +528,6 @@
             <controllingFieldValue>UK</controllingFieldValue>
             <valueName>LN</valueName>
          </valueSettings>
-         <valueSettings>
-            <controllingFieldValue>INDIA</controllingFieldValue>
-            <valueName>MH</valueName>
-         </valueSettings>
       </valueSet>
    </fields>
    <fields>
