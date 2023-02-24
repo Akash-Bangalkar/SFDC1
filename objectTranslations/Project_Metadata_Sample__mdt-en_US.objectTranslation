@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Project Metadata Sample</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Project Metadata Samples</value>
+    </caseValues>
+    <fields>
+        <label><!-- Project Type --></label>
+        <name>Project_Type__c</name>
+        <picklistValues>
+            <masterLabel>Agile</masterLabel>
+            <translation><!-- Agile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waterfall</masterLabel>
+            <translation><!-- Waterfall --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

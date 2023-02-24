@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Project_Type__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <label>Project Type</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Agile</fullName>
+                    <default>true</default>
+                    <label>Agile</label>
+                </value>
+                <value>
+                    <fullName>Waterfall</fullName>
+                    <default>false</default>
+                    <label>Waterfall</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Project Metadata Sample</label>
+    <pluralLabel>Project Metadata Samples</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>
