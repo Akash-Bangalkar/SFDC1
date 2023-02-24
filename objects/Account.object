@@ -532,7 +532,7 @@
          </valueSettings>
          <valueSettings>
             <controllingFieldValue>USA</controllingFieldValue>
-            <valueName>TN</valueName>
+            <valueName>LN</valueName>
          </valueSettings>
       </valueSet>
    </fields>
