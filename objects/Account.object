@@ -525,7 +525,6 @@
             <valueName>NY</valueName>
          </valueSettings>
          <valueSettings>
-            <controllingFieldValue>USA</controllingFieldValue>
             <controllingFieldValue>UK</controllingFieldValue>
             <valueName>LN</valueName>
          </valueSettings>
