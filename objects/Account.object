@@ -518,15 +518,25 @@
          </valueSetDefinition>
          <valueSettings>
             <controllingFieldValue>USA</controllingFieldValue>
+            <controllingFieldValue>INDIA</controllingFieldValue>
             <valueName>WA</valueName>
          </valueSettings>
          <valueSettings>
-            <controllingFieldValue>USA</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <controllingFieldValue>INDIA</controllingFieldValue>
+            <valueName>LN</valueName>
+         </valueSettings>
+         <valueSettings>
+            <controllingFieldValue>INDIA</controllingFieldValue>
             <valueName>NY</valueName>
          </valueSettings>
          <valueSettings>
-            <controllingFieldValue>UK</controllingFieldValue>
-            <valueName>LN</valueName>
+            <controllingFieldValue>INDIA</controllingFieldValue>
+            <valueName>MH</valueName>
+         </valueSettings>
+         <valueSettings>
+            <controllingFieldValue>INDIA</controllingFieldValue>
+            <valueName>TN</valueName>
          </valueSettings>
       </valueSet>
    </fields>
