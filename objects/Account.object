@@ -486,6 +486,7 @@
       <trackFeedHistory>false</trackFeedHistory>
       <type>Picklist</type>
       <valueSet>
+         <controllingField>Country__c</controllingField>
          <restricted>true</restricted>
          <valueSetDefinition>
             <sorted>false</sorted>
@@ -515,6 +516,26 @@
                <label>LN</label>
             </value>
          </valueSetDefinition>
+         <valueSettings>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>WA</valueName>
+         </valueSettings>
+         <valueSettings>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>NY</valueName>
+         </valueSettings>
+         <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>LN</valueName>
+         </valueSettings>
+         <valueSettings>
+            <controllingFieldValue>INDIA</controllingFieldValue>
+            <valueName>MH</valueName>
+         </valueSettings>
+         <valueSettings>
+            <controllingFieldValue>INDIA</controllingFieldValue>
+            <valueName>TN</valueName>
+         </valueSettings>
       </valueSet>
    </fields>
    <fields>
