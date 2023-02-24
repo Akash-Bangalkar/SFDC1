@@ -532,10 +532,6 @@
             <controllingFieldValue>INDIA</controllingFieldValue>
             <valueName>MH</valueName>
          </valueSettings>
-         <valueSettings>
-            <controllingFieldValue>INDIA</controllingFieldValue>
-            <valueName>TN</valueName>
-         </valueSettings>
       </valueSet>
    </fields>
    <fields>
