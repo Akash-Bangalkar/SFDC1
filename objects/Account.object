@@ -669,14 +669,6 @@
             <valueName>3</valueName>
          </valueSettings>
          <valueSettings>
-            <controllingFieldValue>B</controllingFieldValue>
-            <valueName>4</valueName>
-         </valueSettings>
-         <valueSettings>
-            <controllingFieldValue>C</controllingFieldValue>
-            <valueName>5</valueName>
-         </valueSettings>
-         <valueSettings>
             <controllingFieldValue>C</controllingFieldValue>
             <valueName>6</valueName>
          </valueSettings>
