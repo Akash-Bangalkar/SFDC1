@@ -458,11 +458,6 @@
                <label>2</label>
             </value>
             <value>
-               <fullName>3</fullName>
-               <default>false</default>
-               <label>3</label>
-            </value>
-            <value>
                <fullName>4</fullName>
                <default>false</default>
                <label>4</label>
@@ -477,11 +472,13 @@
                <default>false</default>
                <label>6</label>
             </value>
+            <value>
+               <fullName>3</fullName>
+               <default>false</default>
+               <isActive>false</isActive>
+               <label>3</label>
+            </value>
          </valueSetDefinition>
-         <valueSettings>
-            <controllingFieldValue>A</controllingFieldValue>
-            <valueName>3</valueName>
-         </valueSettings>
          <valueSettings>
             <controllingFieldValue>A</controllingFieldValue>
             <valueName>6</valueName>
