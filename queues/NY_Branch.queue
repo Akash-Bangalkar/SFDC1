@@ -3,11 +3,20 @@
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>NY Branch</name>
     <queueMembers>
+        <publicGroups>
+            <publicGroup>AllInternalUsers</publicGroup>
+        </publicGroups>
         <users>
-            <user>akash12@flexagon.devorg</user>
+            <user>akash@flexagon.devorg</user>
         </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>Accessory__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
     </queueSobject>
 </Queue>
