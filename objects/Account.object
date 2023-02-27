@@ -475,7 +475,6 @@
             <value>
                <fullName>3</fullName>
                <default>false</default>
-               <isActive>false</isActive>
                <label>3</label>
             </value>
          </valueSetDefinition>
