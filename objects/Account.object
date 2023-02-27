@@ -488,7 +488,6 @@
          </valueSettings>
          <valueSettings>
             <controllingFieldValue>A</controllingFieldValue>
-            <controllingFieldValue>B</controllingFieldValue>
             <valueName>3</valueName>
          </valueSettings>
          <valueSettings>
@@ -497,7 +496,6 @@
          </valueSettings>
          <valueSettings>
             <controllingFieldValue>B</controllingFieldValue>
-            <controllingFieldValue>C</controllingFieldValue>
             <valueName>5</valueName>
          </valueSettings>
          <valueSettings>
