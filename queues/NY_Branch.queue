@@ -2,6 +2,11 @@
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
     <name>NY Branch</name>
+    <queueMembers>
+        <users>
+            <user>akash@flexagon.devorg</user>
+        </users>
+    </queueMembers>
     <queueSobject>
         <sobjectType>Accessory__c</sobjectType>
     </queueSobject>
