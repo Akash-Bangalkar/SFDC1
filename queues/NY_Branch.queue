@@ -1,22 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
-    <name>NY Branch</name>
+    <email>newyork@flexa.net</email>
+    <name>NY_Branch</name>
     <queueMembers>
-        <publicGroups>
-            <publicGroup>AllInternalUsers</publicGroup>
-        </publicGroups>
-        <users>
-            <user>akash12@flexagon.devorg</user>
-        </users>
+        <roles>
+            <role>ChannelSalesTeam</role>
+        </roles>
     </queueMembers>
     <queueSobject>
         <sobjectType>Accessory__c</sobjectType>
-    </queueSobject>
-    <queueSobject>
-        <sobjectType>Case</sobjectType>
-    </queueSobject>
-    <queueSobject>
-        <sobjectType>Lead</sobjectType>
     </queueSobject>
 </Queue>
