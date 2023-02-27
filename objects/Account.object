@@ -690,14 +690,15 @@
                <label>MUMBAI</label>
             </value>
             <value>
-               <fullName>HYD</fullName>
-               <default>false</default>
-               <label>HYD</label>
-            </value>
-            <value>
                <fullName>CHE</fullName>
                <default>false</default>
                <label>CHE</label>
+            </value>
+            <value>
+               <fullName>HYD</fullName>
+               <default>false</default>
+               <isActive>false</isActive>
+               <label>HYD</label>
             </value>
          </valueSetDefinition>
       </valueSet>
