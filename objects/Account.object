@@ -468,20 +468,14 @@
                <label>5</label>
             </value>
             <value>
-               <fullName>6</fullName>
+               <fullName>66</fullName>
                <default>false</default>
-               <label>6</label>
-            </value>
-            <value>
-               <fullName>3</fullName>
-               <default>false</default>
-               <isActive>false</isActive>
-               <label>3</label>
+               <label>66</label>
             </value>
          </valueSetDefinition>
          <valueSettings>
             <controllingFieldValue>A</controllingFieldValue>
-            <valueName>6</valueName>
+            <valueName>66</valueName>
          </valueSettings>
          <valueSettings>
             <controllingFieldValue>B</controllingFieldValue>
