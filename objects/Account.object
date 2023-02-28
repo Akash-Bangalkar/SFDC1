@@ -468,8 +468,14 @@
                <label>5</label>
             </value>
             <value>
+               <fullName>10</fullName>
+               <default>false</default>
+               <label>10</label>
+            </value>
+            <value>
                <fullName>66</fullName>
                <default>false</default>
+               <isActive>false</isActive>
                <label>66</label>
             </value>
          </valueSetDefinition>
