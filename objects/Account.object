@@ -463,14 +463,15 @@
                <label>4</label>
             </value>
             <value>
-               <fullName>5</fullName>
-               <default>false</default>
-               <label>5</label>
-            </value>
-            <value>
                <fullName>10</fullName>
                <default>false</default>
                <label>10</label>
+            </value>
+            <value>
+               <fullName>5</fullName>
+               <default>false</default>
+               <isActive>false</isActive>
+               <label>5</label>
             </value>
             <value>
                <fullName>66</fullName>
@@ -480,12 +481,12 @@
             </value>
          </valueSetDefinition>
          <valueSettings>
-            <controllingFieldValue>B</controllingFieldValue>
-            <valueName>4</valueName>
+            <controllingFieldValue>A</controllingFieldValue>
+            <valueName>10</valueName>
          </valueSettings>
          <valueSettings>
             <controllingFieldValue>B</controllingFieldValue>
-            <valueName>5</valueName>
+            <valueName>4</valueName>
          </valueSettings>
          <valueSettings>
             <controllingFieldValue>C</controllingFieldValue>
