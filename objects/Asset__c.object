@@ -185,6 +185,11 @@
                <default>false</default>
                <label>Saving Ac</label>
             </value>
+            <value>
+               <fullName>Mutual Fund</fullName>
+               <default>false</default>
+               <label>Mutual Fund</label>
+            </value>
          </valueSetDefinition>
       </valueSet>
    </fields>
