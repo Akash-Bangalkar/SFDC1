@@ -188,13 +188,19 @@
    </actionOverrides>
    <actionOverrides>
       <actionName>View</actionName>
+      <comment>Action override created by Lightning App Builder during activation.</comment>
+      <content>Account_Record_Page</content>
       <formFactor>Large</formFactor>
-      <type>Default</type>
+      <skipRecordTypeSelect>false</skipRecordTypeSelect>
+      <type>Flexipage</type>
    </actionOverrides>
    <actionOverrides>
       <actionName>View</actionName>
+      <comment>Action override created by Lightning App Builder during activation.</comment>
+      <content>Account_Record_Page</content>
       <formFactor>Small</formFactor>
-      <type>Default</type>
+      <skipRecordTypeSelect>false</skipRecordTypeSelect>
+      <type>Flexipage</type>
    </actionOverrides>
    <actionOverrides>
       <actionName>ViewCustomerPortalUser</actionName>
@@ -706,15 +712,15 @@
                <label>MUMBAI</label>
             </value>
             <value>
-               <fullName>CHE</fullName>
-               <default>false</default>
-               <label>CHE</label>
-            </value>
-            <value>
                <fullName>HYD</fullName>
                <default>false</default>
-               <isActive>false</isActive>
                <label>HYD</label>
+            </value>
+            <value>
+               <fullName>CHE</fullName>
+               <default>false</default>
+               <isActive>false</isActive>
+               <label>CHE</label>
             </value>
          </valueSetDefinition>
       </valueSet>
@@ -763,18 +769,12 @@
       <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
       <customTabListAdditionalFields>ACCOUNT.SITE</customTabListAdditionalFields>
       <customTabListAdditionalFields>ACCOUNT.PHONE1</customTabListAdditionalFields>
-      <customTabListAdditionalFields>CORE.USERS.ALIAS</customTabListAdditionalFields>
-      <customTabListAdditionalFields>ACCOUNT.TYPE</customTabListAdditionalFields>
       <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
       <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
       <lookupDialogsAdditionalFields>ACCOUNT.PHONE1</lookupDialogsAdditionalFields>
-      <lookupDialogsAdditionalFields>CORE.USERS.ALIAS</lookupDialogsAdditionalFields>
-      <lookupDialogsAdditionalFields>ACCOUNT.TYPE</lookupDialogsAdditionalFields>
       <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
       <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
       <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
-      <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
-      <lookupPhoneDialogsAdditionalFields>ACCOUNT.TYPE</lookupPhoneDialogsAdditionalFields>
       <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
       <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
       <searchResultsAdditionalFields>ACCOUNT.PHONE1</searchResultsAdditionalFields>
