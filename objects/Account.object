@@ -224,7 +224,7 @@
       <formFactor>Small</formFactor>
       <type>Default</type>
    </actionOverrides>
-   <compactLayoutAssignment>Account_CL1</compactLayoutAssignment>
+   <compactLayoutAssignment>Account_CL2</compactLayoutAssignment>
    <compactLayouts>
       <fullName>Account_CL1</fullName>
       <fields>Name</fields>
@@ -233,6 +233,14 @@
       <fields>Website</fields>
       <fields>TickerSymbol</fields>
       <label>Account CL1</label>
+   </compactLayouts>
+   <compactLayouts>
+      <fullName>Account_CL2</fullName>
+      <fields>Name</fields>
+      <fields>Active__c</fields>
+      <fields>Industry</fields>
+      <fields>Phone</fields>
+      <label>Account CL2</label>
    </compactLayouts>
    <enableFeeds>true</enableFeeds>
    <enableHistory>false</enableHistory>
