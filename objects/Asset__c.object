@@ -171,11 +171,6 @@
                <label>Current Ac</label>
             </value>
             <value>
-               <fullName>Loan</fullName>
-               <default>false</default>
-               <label>Loan</label>
-            </value>
-            <value>
                <fullName>Saving Ac</fullName>
                <default>false</default>
                <label>Saving Ac</label>
