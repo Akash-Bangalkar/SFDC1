@@ -224,7 +224,7 @@
       <formFactor>Small</formFactor>
       <type>Default</type>
    </actionOverrides>
-   <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+   <compactLayoutAssignment>Account_CL1</compactLayoutAssignment>
    <compactLayouts>
       <fullName>Account_CL1</fullName>
       <fields>Name</fields>
