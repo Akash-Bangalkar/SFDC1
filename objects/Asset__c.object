@@ -183,7 +183,6 @@
             <value>
                <fullName>Fix Deposit</fullName>
                <default>false</default>
-               <isActive>false</isActive>
                <label>Fix Deposit</label>
             </value>
          </valueSetDefinition>
