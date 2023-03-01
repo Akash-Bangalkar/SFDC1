@@ -171,9 +171,9 @@
                <label>Current Ac</label>
             </value>
             <value>
-               <fullName>Saving Ac</fullName>
+               <fullName>Saving Account</fullName>
                <default>false</default>
-               <label>Saving Ac</label>
+               <label>Saving Account</label>
             </value>
             <value>
                <fullName>Fix Deposit</fullName>
