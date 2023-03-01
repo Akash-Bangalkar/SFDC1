@@ -761,21 +761,25 @@
    </listViews>
    <searchLayouts>
       <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
-      <customTabListAdditionalFields>ACCOUNT.ADDRESS1_CITY</customTabListAdditionalFields>
+      <customTabListAdditionalFields>ACCOUNT.SITE</customTabListAdditionalFields>
       <customTabListAdditionalFields>ACCOUNT.PHONE1</customTabListAdditionalFields>
+      <customTabListAdditionalFields>CORE.USERS.ALIAS</customTabListAdditionalFields>
+      <customTabListAdditionalFields>ACCOUNT.TYPE</customTabListAdditionalFields>
       <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
       <lookupDialogsAdditionalFields>ACCOUNT.SITE</lookupDialogsAdditionalFields>
+      <lookupDialogsAdditionalFields>ACCOUNT.PHONE1</lookupDialogsAdditionalFields>
       <lookupDialogsAdditionalFields>CORE.USERS.ALIAS</lookupDialogsAdditionalFields>
       <lookupDialogsAdditionalFields>ACCOUNT.TYPE</lookupDialogsAdditionalFields>
       <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
       <lookupPhoneDialogsAdditionalFields>ACCOUNT.SITE</lookupPhoneDialogsAdditionalFields>
+      <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
       <lookupPhoneDialogsAdditionalFields>CORE.USERS.ALIAS</lookupPhoneDialogsAdditionalFields>
       <lookupPhoneDialogsAdditionalFields>ACCOUNT.TYPE</lookupPhoneDialogsAdditionalFields>
-      <lookupPhoneDialogsAdditionalFields>ACCOUNT.PHONE1</lookupPhoneDialogsAdditionalFields>
       <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
       <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
       <searchResultsAdditionalFields>ACCOUNT.PHONE1</searchResultsAdditionalFields>
       <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+      <searchResultsAdditionalFields>ACCOUNT.TYPE</searchResultsAdditionalFields>
    </searchLayouts>
    <sharingModel>ReadWrite</sharingModel>
    <webLinks>
