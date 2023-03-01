@@ -181,11 +181,6 @@
                <label>Saving Ac</label>
             </value>
             <value>
-               <fullName>Mutual Fund</fullName>
-               <default>false</default>
-               <label>Mutual Fund</label>
-            </value>
-            <value>
                <fullName>Fix Deposit</fullName>
                <default>false</default>
                <isActive>false</isActive>
