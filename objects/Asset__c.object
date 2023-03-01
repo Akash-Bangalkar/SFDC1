@@ -171,11 +171,6 @@
                <label>Current Ac</label>
             </value>
             <value>
-               <fullName>Fix Deposit</fullName>
-               <default>false</default>
-               <label>Fix Deposit</label>
-            </value>
-            <value>
                <fullName>Loan</fullName>
                <default>false</default>
                <label>Loan</label>
@@ -189,6 +184,12 @@
                <fullName>Mutual Fund</fullName>
                <default>false</default>
                <label>Mutual Fund</label>
+            </value>
+            <value>
+               <fullName>Fix Deposit</fullName>
+               <default>false</default>
+               <isActive>false</isActive>
+               <label>Fix Deposit</label>
             </value>
          </valueSetDefinition>
       </valueSet>
