@@ -142,6 +142,14 @@
    </actionOverrides>
    <allowInChatterGroups>true</allowInChatterGroups>
    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+   <compactLayouts>
+      <fullName>Accessory_CL</fullName>
+      <fields>Name</fields>
+      <fields>Accessory_ID__c</fields>
+      <fields>Accessory_Type__c</fields>
+      <fields>RecordTypeId</fields>
+      <label>Accessory CL</label>
+   </compactLayouts>
    <deploymentStatus>Deployed</deploymentStatus>
    <enableActivities>true</enableActivities>
    <enableBulkApi>true</enableBulkApi>
@@ -237,10 +245,6 @@
             <default>false</default>
          </values>
          <values>
-            <fullName>Books</fullName>
-            <default>false</default>
-         </values>
-         <values>
             <fullName>Electronics</fullName>
             <default>false</default>
          </values>
@@ -270,10 +274,6 @@
          <picklist>Accessory_Type__c</picklist>
          <values>
             <fullName>Beauty</fullName>
-            <default>false</default>
-         </values>
-         <values>
-            <fullName>Books</fullName>
             <default>false</default>
          </values>
          <values>
