@@ -225,6 +225,14 @@
       <type>Default</type>
    </actionOverrides>
    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+   <compactLayouts>
+      <fullName>Account_CL1</fullName>
+      <fields>Name</fields>
+      <fields>AccountSource</fields>
+      <fields>Type</fields>
+      <fields>Website</fields>
+      <label>Account CL1</label>
+   </compactLayouts>
    <enableFeeds>true</enableFeeds>
    <enableHistory>false</enableHistory>
    <externalSharingModel>Private</externalSharingModel>
