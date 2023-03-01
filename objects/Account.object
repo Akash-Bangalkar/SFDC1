@@ -779,7 +779,7 @@
       <searchResultsAdditionalFields>ACCOUNT.SITE</searchResultsAdditionalFields>
       <searchResultsAdditionalFields>ACCOUNT.PHONE1</searchResultsAdditionalFields>
       <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
-      <searchResultsAdditionalFields>ACCOUNT.TYPE</searchResultsAdditionalFields>
+      <searchResultsAdditionalFields>Active__c</searchResultsAdditionalFields>
    </searchLayouts>
    <sharingModel>ReadWrite</sharingModel>
    <webLinks>
