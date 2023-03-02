@@ -218,16 +218,15 @@
          </valueSettings>
          <valueSettings>
             <controllingFieldValue>Fix Deposit</controllingFieldValue>
-            <controllingFieldValue>Saving Account</controllingFieldValue>
-            <valueName>Other</valueName>
-         </valueSettings>
-         <valueSettings>
-            <controllingFieldValue>Fix Deposit</controllingFieldValue>
             <valueName>Staff</valueName>
          </valueSettings>
          <valueSettings>
             <controllingFieldValue>Saving Account</controllingFieldValue>
             <valueName>Government Servant</valueName>
+         </valueSettings>
+         <valueSettings>
+            <controllingFieldValue>Saving Account</controllingFieldValue>
+            <valueName>Other</valueName>
          </valueSettings>
       </valueSet>
    </fields>
@@ -298,10 +297,6 @@
          <picklist>Customer_Type__c</picklist>
          <values>
             <fullName>General Public</fullName>
-            <default>false</default>
-         </values>
-         <values>
-            <fullName>Government Servant</fullName>
             <default>false</default>
          </values>
          <values>
