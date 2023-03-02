@@ -187,6 +187,7 @@
       <trackTrending>false</trackTrending>
       <type>Picklist</type>
       <valueSet>
+         <controllingField>Asset_Type__c</controllingField>
          <restricted>true</restricted>
          <valueSetDefinition>
             <sorted>false</sorted>
@@ -211,6 +212,23 @@
                <label>Staff</label>
             </value>
          </valueSetDefinition>
+         <valueSettings>
+            <controllingFieldValue>Fix Deposit</controllingFieldValue>
+            <controllingFieldValue>Saving Account</controllingFieldValue>
+            <valueName>Other</valueName>
+         </valueSettings>
+         <valueSettings>
+            <controllingFieldValue>Fix Deposit</controllingFieldValue>
+            <valueName>Staff</valueName>
+         </valueSettings>
+         <valueSettings>
+            <controllingFieldValue>Saving Account</controllingFieldValue>
+            <valueName>General Public</valueName>
+         </valueSettings>
+         <valueSettings>
+            <controllingFieldValue>Saving Account</controllingFieldValue>
+            <valueName>Government Servant</valueName>
+         </valueSettings>
       </valueSet>
    </fields>
    <label>Asset</label>
