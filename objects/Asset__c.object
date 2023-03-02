@@ -214,16 +214,16 @@
          </valueSetDefinition>
          <valueSettings>
             <controllingFieldValue>Fix Deposit</controllingFieldValue>
+            <valueName>General Public</valueName>
+         </valueSettings>
+         <valueSettings>
+            <controllingFieldValue>Fix Deposit</controllingFieldValue>
             <controllingFieldValue>Saving Account</controllingFieldValue>
             <valueName>Other</valueName>
          </valueSettings>
          <valueSettings>
             <controllingFieldValue>Fix Deposit</controllingFieldValue>
             <valueName>Staff</valueName>
-         </valueSettings>
-         <valueSettings>
-            <controllingFieldValue>Saving Account</controllingFieldValue>
-            <valueName>General Public</valueName>
          </valueSettings>
          <valueSettings>
             <controllingFieldValue>Saving Account</controllingFieldValue>
