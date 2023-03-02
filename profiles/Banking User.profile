@@ -4258,12 +4258,12 @@
    </objectPermissions>
    <objectPermissions>
       <allowCreate>true</allowCreate>
-      <allowDelete>false</allowDelete>
+      <allowDelete>true</allowDelete>
       <allowEdit>true</allowEdit>
       <allowRead>true</allowRead>
-      <modifyAllRecords>false</modifyAllRecords>
+      <modifyAllRecords>true</modifyAllRecords>
       <object>Asset__c</object>
-      <viewAllRecords>false</viewAllRecords>
+      <viewAllRecords>true</viewAllRecords>
    </objectPermissions>
    <objectPermissions>
       <allowCreate>true</allowCreate>
@@ -4538,7 +4538,7 @@
    </tabVisibilities>
    <tabVisibilities>
       <tab>Asset__c</tab>
-      <visibility>Hidden</visibility>
+      <visibility>DefaultOn</visibility>
    </tabVisibilities>
    <tabVisibilities>
       <tab>FlexDeploy__c</tab>
