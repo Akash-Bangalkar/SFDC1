@@ -4538,7 +4538,7 @@
    </tabVisibilities>
    <tabVisibilities>
       <tab>Asset__c</tab>
-      <visibility>DefaultOn</visibility>
+      <visibility>Hidden</visibility>
    </tabVisibilities>
    <tabVisibilities>
       <tab>FlexDeploy__c</tab>
