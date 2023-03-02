@@ -178,6 +178,41 @@
          </valueSetDefinition>
       </valueSet>
    </fields>
+   <fields>
+      <fullName>Customer_Type__c</fullName>
+      <externalId>false</externalId>
+      <label>Customer Type</label>
+      <required>false</required>
+      <trackHistory>false</trackHistory>
+      <trackTrending>false</trackTrending>
+      <type>Picklist</type>
+      <valueSet>
+         <restricted>true</restricted>
+         <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+               <fullName>General Public</fullName>
+               <default>false</default>
+               <label>General Public</label>
+            </value>
+            <value>
+               <fullName>Government Servant</fullName>
+               <default>false</default>
+               <label>Government Servant</label>
+            </value>
+            <value>
+               <fullName>Other</fullName>
+               <default>false</default>
+               <label>Other</label>
+            </value>
+            <value>
+               <fullName>Staff</fullName>
+               <default>false</default>
+               <label>Staff</label>
+            </value>
+         </valueSetDefinition>
+      </valueSet>
+   </fields>
    <label>Asset</label>
    <listViews>
       <fullName>All</fullName>
@@ -191,6 +226,41 @@
       <type>AutoNumber</type>
    </nameField>
    <pluralLabel>Assets</pluralLabel>
+   <recordTypes>
+      <fullName>TN_Branch</fullName>
+      <active>true</active>
+      <label>TN Branch</label>
+      <picklistValues>
+         <picklist>Asset_Type__c</picklist>
+         <values>
+            <fullName>Fix Deposit</fullName>
+            <default>false</default>
+         </values>
+         <values>
+            <fullName>Saving Account</fullName>
+            <default>false</default>
+         </values>
+      </picklistValues>
+      <picklistValues>
+         <picklist>Customer_Type__c</picklist>
+         <values>
+            <fullName>General Public</fullName>
+            <default>false</default>
+         </values>
+         <values>
+            <fullName>Government Servant</fullName>
+            <default>false</default>
+         </values>
+         <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+         </values>
+         <values>
+            <fullName>Staff</fullName>
+            <default>false</default>
+         </values>
+      </picklistValues>
+   </recordTypes>
    <searchLayouts/>
    <sharingModel>ReadWrite</sharingModel>
    <visibility>Public</visibility>
