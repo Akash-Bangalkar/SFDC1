@@ -250,12 +250,8 @@
       <picklistValues>
          <picklist>Asset_Type__c</picklist>
          <values>
-            <fullName>Fix Deposit</fullName>
-            <default>false</default>
-         </values>
-         <values>
             <fullName>Saving Account</fullName>
-            <default>false</default>
+            <default>true</default>
          </values>
       </picklistValues>
       <picklistValues>
