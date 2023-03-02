@@ -193,6 +193,7 @@
             <value>
                <fullName>PA</fullName>
                <default>false</default>
+               <isActive>false</isActive>
                <label>PA</label>
             </value>
          </valueSetDefinition>
@@ -227,10 +228,6 @@
          </values>
          <values>
             <fullName>MNC</fullName>
-            <default>false</default>
-         </values>
-         <values>
-            <fullName>PA</fullName>
             <default>false</default>
          </values>
          <values>
