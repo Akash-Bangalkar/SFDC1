@@ -190,6 +190,11 @@
                <default>false</default>
                <label>SL</label>
             </value>
+            <value>
+               <fullName>PA</fullName>
+               <default>false</default>
+               <label>PA</label>
+            </value>
          </valueSetDefinition>
       </valueSet>
    </fields>
@@ -222,6 +227,10 @@
          </values>
          <values>
             <fullName>MNC</fullName>
+            <default>false</default>
+         </values>
+         <values>
+            <fullName>PA</fullName>
             <default>false</default>
          </values>
          <values>
