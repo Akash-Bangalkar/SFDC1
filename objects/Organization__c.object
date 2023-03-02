@@ -234,10 +234,6 @@
             <fullName>PLC</fullName>
             <default>false</default>
          </values>
-         <values>
-            <fullName>SL</fullName>
-            <default>false</default>
-         </values>
       </picklistValues>
    </recordTypes>
    <searchLayouts/>
