@@ -8,8 +8,12 @@
         </publicGroups>
         <roles>
             <role>Project_Manager</role>
+            <role>VPMarketing</role>
         </roles>
     </queueMembers>
+    <queueSobject>
+        <sobjectType>Accessory__c</sobjectType>
+    </queueSobject>
     <queueSobject>
         <sobjectType>Asset__c</sobjectType>
     </queueSobject>
