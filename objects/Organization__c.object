@@ -259,7 +259,10 @@
          </values>
       </picklistValues>
    </recordTypes>
-   <searchLayouts/>
+   <searchLayouts>
+      <searchResultsAdditionalFields>Type__c</searchResultsAdditionalFields>
+      <searchResultsAdditionalFields>RECORDTYPE</searchResultsAdditionalFields>
+   </searchLayouts>
    <sharingModel>ReadWrite</sharingModel>
    <visibility>Public</visibility>
 </CustomObject>
