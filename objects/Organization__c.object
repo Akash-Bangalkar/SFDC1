@@ -147,7 +147,7 @@
       <type>Default</type>
    </actionOverrides>
    <allowInChatterGroups>true</allowInChatterGroups>
-   <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+   <compactLayoutAssignment>Org_CL2</compactLayoutAssignment>
    <compactLayouts>
       <fullName>Org_CL</fullName>
       <fields>Name</fields>
@@ -156,6 +156,15 @@
       <fields>OwnerId</fields>
       <fields>CreatedById</fields>
       <label>Org CL</label>
+   </compactLayouts>
+   <compactLayouts>
+      <fullName>Org_CL2</fullName>
+      <fields>Name</fields>
+      <fields>Type__c</fields>
+      <fields>RecordTypeId</fields>
+      <fields>OwnerId</fields>
+      <fields>CreatedById</fields>
+      <label>Org CL2</label>
    </compactLayouts>
    <deploymentStatus>Deployed</deploymentStatus>
    <enableActivities>true</enableActivities>
