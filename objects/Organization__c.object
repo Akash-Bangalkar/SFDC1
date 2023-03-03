@@ -160,10 +160,8 @@
    <compactLayouts>
       <fullName>Org_CL2</fullName>
       <fields>Name</fields>
-      <fields>Type__c</fields>
       <fields>RecordTypeId</fields>
-      <fields>OwnerId</fields>
-      <fields>CreatedById</fields>
+      <fields>Type__c</fields>
       <label>Org CL2</label>
    </compactLayouts>
    <deploymentStatus>Deployed</deploymentStatus>
