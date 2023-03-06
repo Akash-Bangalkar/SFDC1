@@ -11,7 +11,7 @@
             <field>Name</field>
          </layoutItems>
          <layoutItems>
-            <behavior>Required</behavior>
+            <behavior>Readonly</behavior>
             <field>Type__c</field>
          </layoutItems>
       </layoutColumns>
@@ -36,8 +36,8 @@
       </layoutColumns>
       <layoutColumns>
          <layoutItems>
-            <behavior>Readonly</behavior>
-            <field>LastModifiedById</field>
+            <behavior>Edit</behavior>
+            <field>RecordTypeId</field>
          </layoutItems>
       </layoutColumns>
       <style>TwoColumnsTopToBottom</style>
