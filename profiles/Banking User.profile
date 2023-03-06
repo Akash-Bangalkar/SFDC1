@@ -4247,6 +4247,9 @@
    <layoutAssignments>
       <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
    </layoutAssignments>
+   <layoutAssignments>
+      <layout>Organization__c-Organization Layout 2</layout>
+   </layoutAssignments>
    <objectPermissions>
       <allowCreate>true</allowCreate>
       <allowDelete>true</allowDelete>
