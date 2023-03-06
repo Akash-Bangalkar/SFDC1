@@ -11,6 +11,9 @@
             <field>Name</field>
          </layoutItems>
          <layoutItems>
+            <emptySpace>true</emptySpace>
+         </layoutItems>
+         <layoutItems>
             <behavior>Readonly</behavior>
             <field>Type__c</field>
          </layoutItems>
@@ -19,6 +22,9 @@
          <layoutItems>
             <behavior>Edit</behavior>
             <field>OwnerId</field>
+         </layoutItems>
+         <layoutItems>
+            <emptySpace>true</emptySpace>
          </layoutItems>
          <layoutItems>
             <behavior>Edit</behavior>
