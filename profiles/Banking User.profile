@@ -4055,9 +4055,6 @@
    </layoutAssignments>
    <layoutAssignments>
       <layout>Organization__c-Organization Layout</layout>
-   </layoutAssignments>
-   <layoutAssignments>
-      <layout>Organization__c-Organization Layout</layout>
       <recordType>Organization__c.Private_Limited</recordType>
    </layoutAssignments>
    <layoutAssignments>
