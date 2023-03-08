@@ -15,6 +15,10 @@
                 <behavior>Edit</behavior>
                 <field>Skills__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Project_Status__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
