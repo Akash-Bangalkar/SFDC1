@@ -30,4 +30,48 @@ private class OpportunityControllerTest {
         List<Project__c> CheckTest = [SELECT ID FROM Project__c];
         System.assertEquals(1, CheckTest.size());
     }
+    
+    @isTest
+    private static void TestMethod2()
+    {
+        List<Opportunity> oppList = [SELECT ID, StageName FROM Opportunity];
+        for(Opportunity opp:oppList)
+        {
+            opp.StageName = 'Value Proposition';
+        }
+        Update oppList;
+        
+        for(Opportunity opp:oppList)
+        {
+            opp.StageName = 'Closed Won';
+        }
+        Test.startTest();
+        Update oppList;
+        Test.stopTest();
+        
+        List<Project__c> CheckTest = [SELECT ID FROM Project__c WHERE Project_Status__c='Initiated'];
+        System.assertEquals(1, CheckTest.size());
+    }
+    
+    @isTest
+    private static void TestMethod3()
+    {
+        List<Opportunity> oppList = [SELECT ID, StageName FROM Opportunity];
+        for(Opportunity opp:oppList)
+        {
+            opp.StageName = 'Value Proposition';
+        }
+        Update oppList;
+        
+        for(Opportunity opp:oppList)
+        {
+            opp.StageName = 'Closed Lost';
+        }
+        Test.startTest();
+        Update oppList;
+        Test.stopTest();
+        
+        List<Project__c> CheckTest = [SELECT ID FROM Project__c WHERE Project_Status__c='Cancelled'];
+        System.assertEquals(1, CheckTest.size());
+    }
 }
