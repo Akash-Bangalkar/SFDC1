@@ -2,6 +2,78 @@
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>57.0</apiVersion>
     <decisions>
+        <name>Check_Rating_Null</name>
+        <label>Check Rating Null</label>
+        <locationX>446</locationX>
+        <locationY>671</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Lead_Status_Working</name>
+            <conditionLogic>1 AND 2 AND (3 OR 4)</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Rating</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Rating</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Rating</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Hot</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Rating</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Warm</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Status_Working</targetReference>
+            </connector>
+            <label>Lead Status - Working</label>
+        </rules>
+        <rules>
+            <name>Lead_Status_Nurturing</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Rating</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Rating</leftValueReference>
+                <operator>IsChanged</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Rating</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Cold</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Status_Nurturing</targetReference>
+            </connector>
+            <label>Lead Status - Nurturing</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Rating</name>
         <label>Rating</label>
         <locationX>446</locationX>
@@ -75,7 +147,7 @@
         </rules>
     </decisions>
     <interviewLabel>Rating - Flow {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Rating - Flow</label>
+    <label>Lead Flow</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -100,6 +172,9 @@
         <label>Update Rating - Cold</label>
         <locationX>578</locationX>
         <locationY>455</locationY>
+        <connector>
+            <targetReference>Check_Rating_Null</targetReference>
+        </connector>
         <inputAssignments>
             <field>Rating</field>
             <value>
@@ -113,6 +188,9 @@
         <label>Update Rating - Hot</label>
         <locationX>50</locationX>
         <locationY>455</locationY>
+        <connector>
+            <targetReference>Check_Rating_Null</targetReference>
+        </connector>
         <inputAssignments>
             <field>Rating</field>
             <value>
@@ -126,10 +204,39 @@
         <label>Update Rating - Warm</label>
         <locationX>314</locationX>
         <locationY>455</locationY>
+        <connector>
+            <targetReference>Check_Rating_Null</targetReference>
+        </connector>
         <inputAssignments>
             <field>Rating</field>
             <value>
                 <stringValue>Warm</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Status_Nurturing</name>
+        <label>Update Status - Nurturing</label>
+        <locationX>446</locationX>
+        <locationY>791</locationY>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Nurturing</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Status_Working</name>
+        <label>Update Status - Working</label>
+        <locationX>182</locationX>
+        <locationY>791</locationY>
+        <inputAssignments>
+            <field>Status</field>
+            <value>
+                <stringValue>Working</stringValue>
             </value>
         </inputAssignments>
         <inputReference>$Record</inputReference>
