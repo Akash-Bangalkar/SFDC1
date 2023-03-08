@@ -1,59 +1,33 @@
 @isTest
 private class OpportunityControllerTest {
     @testsetup
-    private static void testData()
+	private static void TestData()
     {
-        List<Opportunity> oppList = New List<Opportunity>();
-        for(integer i=1;i<=100;i++)
-        {
-            Opportunity opp = New Opportunity();
-            opp.Name = 'Test Opportunity '+i;
-            opp.StageName = 'Qualification';
-            opp.CloseDate = Date.today() - 30;
-            oppList.add(opp);
-        }
-        
-        Insert oppList;
+        Opportunity opp = New Opportunity();
+        opp.StageName = 'Prospecting';
+        opp.CloseDate = Date.today() + 30;
+        opp.Name = 'Test Opportunity';
+        opp.Start_Date__c = date.today() + 2;
+        opp.Estimated_Days__c = 15;
+        opp.No_of_Employee__c = 3;
+        opp.Skills__c = 'Java;Python';
+        Insert opp;
     }
     
     @isTest
     private static void TestMethod1()
     {
-        List<Opportunity> oppList = New List<Opportunity>();
-        for(Opportunity opp:[SELECT ID, StageName FROM Opportunity LIMIT 1])
+        List<Opportunity> oppList = [SELECT ID, StageName FROM Opportunity];
+        for(Opportunity opp:oppList)
         {
-            opp.StageName = 'Closed Won';
-            oppList.add(opp);
+            opp.StageName = 'Value Proposition';
         }
         
         Test.startTest();
-        Database.update(oppList);
+        Update oppList;
         Test.stopTest();
         
-        //Date currentDate = Date.today();
-        List<Opportunity> checkOpp = [SELECT ID FROM Opportunity WHERE CloseDate=:Date.today()];
-        
-        System.assertEquals(1, checkOpp.size());
+        List<Project__c> CheckTest = [SELECT ID FROM Project__c];
+        System.assertEquals(1, CheckTest.size());
     }
-    
-    @isTest
-    private static void TestMethod2()
-    {
-        List<Opportunity> oppList = New List<Opportunity>();
-        for(Opportunity opp:[SELECT ID, StageName FROM Opportunity])
-        {
-            opp.StageName = 'Closed Won';
-            oppList.add(opp);
-        }
-        
-        Test.startTest();
-        Database.update(oppList);
-        Test.stopTest();
-        
-        //Date currentDate = Date.today();
-        List<Opportunity> checkOpp = [SELECT ID FROM Opportunity WHERE CloseDate=:Date.today()];
-        
-        System.assertEquals(100, checkOpp.size());
-    }
-    
 }

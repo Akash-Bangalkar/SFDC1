@@ -1,9 +1,9 @@
-trigger OppTrigger on Opportunity (before update) {
-	if(trigger.isBefore)
+trigger OppTrigger on Opportunity (after update) {
+	if(trigger.isAfter)
     {
         if(trigger.isUpdate)
         {
-            OpportunityController.updateCloseDate(trigger.new, trigger.oldMap);
+            OpportunityController.CreateProjectRecord(trigger.new, trigger.oldMap);
         }
     }
 }
