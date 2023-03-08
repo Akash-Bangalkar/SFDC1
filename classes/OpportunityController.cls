@@ -13,7 +13,7 @@ public with sharing class OpportunityController {
                 proj.Est_End_Date__c = opp.Estimated_End_Date__c;
                 proj.Employee_Required__c = opp.No_of_Employee__c;
                 proj.Project_Status__c = 'New';
-                
+                proj.Opportunity__c = opp.Id;
                 projRec.add(proj);
             }
         }
