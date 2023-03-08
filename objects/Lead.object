@@ -271,6 +271,35 @@
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
     <fields>
+        <fullName>Budget__c</fullName>
+        <externalId>false</externalId>
+        <label>Budget</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Less Than ₹1,00,000</fullName>
+                    <default>false</default>
+                    <label>Less Than ₹1,00,000</label>
+                </value>
+                <value>
+                    <fullName>In Between ₹1,00,000 to ₹5,00,000</fullName>
+                    <default>false</default>
+                    <label>In Between ₹1,00,000 to ₹5,00,000</label>
+                </value>
+                <value>
+                    <fullName>Greater Than ₹5,00,000</fullName>
+                    <default>false</default>
+                    <label>Greater Than ₹5,00,000</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
         <fullName>CampaignId</fullName>
         <type>Lookup</type>
     </fields>
