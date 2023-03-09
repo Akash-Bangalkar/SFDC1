@@ -30,7 +30,6 @@
     <networkMemberGroups>
         <profile>admin</profile>
         <profile>banking user</profile>
-        <profile>sfdc consultant</profile>
     </networkMemberGroups>
     <networkPageOverrides>
         <changePasswordPageOverrideSetting>Standard</changePasswordPageOverrideSetting>
