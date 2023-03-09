@@ -24,7 +24,7 @@
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
     <siteAdmin>akash12@flexagon.devorg</siteAdmin>
-    <siteGuestRecordDefaultOwner>akash@flexagon.devorg</siteGuestRecordDefaultOwner>
+    <siteGuestRecordDefaultOwner>akash12@flexagon.devorg</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
     <urlPathPrefix>flexanet</urlPathPrefix>
 </CustomSite>
