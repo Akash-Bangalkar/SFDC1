@@ -2746,12 +2746,12 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Organization__c.Org_Address__c</field>
+        <field>Organization__c.Code__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Organization__c.Org_External_ID__c</field>
+        <editable>true</editable>
+        <field>Organization__c.Org_Address__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -2957,6 +2957,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Project__c.Est_End_Date__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Project__c.Opportunity__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
