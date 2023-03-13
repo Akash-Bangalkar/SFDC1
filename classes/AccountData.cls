@@ -2,6 +2,6 @@ public with sharing class AccountData {
     @AuraEnabled(cacheable=true)
     public static List<Account> AccList()
     {
-        return [SELECT ID, Name, Rating, Code__c, Site FROM Account];
+        return [SELECT ID, Name, Rating, Code__c, Site, Type FROM Account];
     }
 }
