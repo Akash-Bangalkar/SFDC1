@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
-    <name>SFDC Queue</name>
+    <name>SFDC1 Queue</name>
     <queueMembers>
         <publicGroups>
             <publicGroup>AllInternalUsers</publicGroup>
         </publicGroups>
         <roles>
             <role>Project_Manager</role>
-            <role>VPMarketing</role>
         </roles>
     </queueMembers>
     <queueSobject>
