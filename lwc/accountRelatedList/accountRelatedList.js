@@ -9,8 +9,8 @@ export default class AccountRelatedList extends LightningElement {
     @track contactError;
     @wire(getRelatedListRecords, {
         parentRecordId:'$recordId',
-        relatedRecordId:'Contacts',
-        field:['Contact.Id','Contact.Name','Contact.Title']
+        relatedListId:'Contacts',
+        fields:['Contact.Id','Contact.Name','Contact.Title']
     })
     WiredContact(result)
     {
@@ -33,8 +33,8 @@ export default class AccountRelatedList extends LightningElement {
 
     @wire(getRelatedListRecords, {
         parentRecordId:'$recordId',
-        relatedRecordId:'Opportunities',
-        field:['Opportunity.Id','Opportunity.Name','Opportunity.StageName']
+        relatedListId:'Opportunities',
+        fields:['Opportunity.Id','Opportunity.Name','Opportunity.StageName']
     })
     WiredOpp(result)
     {
@@ -57,8 +57,8 @@ export default class AccountRelatedList extends LightningElement {
 
     @wire(getRelatedListRecords, {
         parentRecordId:'$recordId',
-        relatedRecordId:'Cases',
-        field:['Case.Id','Case.Number','Case.Subject']
+        relatedListId:'Cases',
+        fields:['Case.Id','Case.CaseNumber','Case.Subject']
     })
     WiredCase(result)
     {
