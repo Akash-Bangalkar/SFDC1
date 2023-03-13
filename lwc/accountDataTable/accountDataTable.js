@@ -5,7 +5,8 @@ export default class AccountDataTable extends LightningElement {
     @track col = [
         {label:'Account Name', fieldName:'Name', type:'text'},
         {label:'Rating', fieldName:'Rating', type:'text'},
-        {label:'Account Code', fieldName:'Code__c', type:'text'}
+        {label:'Account Code', fieldName:'Code__c', type:'text'},
+        {label:'Account Site', fieldName:'Site', type:'text'}
     ];
 
     @track acData;
