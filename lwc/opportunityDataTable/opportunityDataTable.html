@@ -1,0 +1,13 @@
+<!-- sldsValidatorIgnore -->
+<template>
+    <lightning-card title="Opportunity Datatable" icon-name="standard:opportunity">
+        <div>
+            <template if:true={oppResult}>
+                <lightning-datatable data={oppResult} columns={col} key-field="Id"></lightning-datatable>
+            </template>
+            <template if:false={oppError}>
+                {oppError}
+            </template>
+        </div>
+    </lightning-card>
+</template>
