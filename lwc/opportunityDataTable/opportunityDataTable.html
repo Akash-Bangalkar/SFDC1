@@ -5,7 +5,7 @@
             <template if:true={oppResult}>
                 <lightning-datatable data={oppResult} columns={col} key-field="Id"></lightning-datatable>
             </template>
-            <template if:false={oppError}>
+            <template if:true={oppError}>
                 {oppError}
             </template>
         </div>

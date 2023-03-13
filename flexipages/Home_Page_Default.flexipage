@@ -3,8 +3,8 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>home:heroChart</componentName>
-                <identifier>home_heroChart</identifier>
+                <componentName>opportunityDataTable</componentName>
+                <identifier>c_opportunityDataTable</identifier>
             </componentInstance>
         </itemInstances>
         <mode>Replace</mode>
