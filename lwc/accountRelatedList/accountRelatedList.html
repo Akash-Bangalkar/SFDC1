@@ -1,0 +1,46 @@
+<template>
+    <lightning-card title="Contact Related List" icon-name="action:new_contact">
+        <div class='slds-var-m-around_medium'>
+            <template if:true={contactData}>
+                <template for:each={contactData} for:item="rec">
+                    <p key={rec.fields.Id.value}>
+                        <b>{rec.fields.Name.value}</b> - {rec.fields.Title.value}
+                    </p>
+                </template>
+            </template>
+            <template if:true={contactError}>
+                {contactError}
+            </template>
+        </div>
+    </lightning-card>
+    <br>
+    <lightning-card title="Opportunity Related List" icon-name="action:new_opportunity">
+        <div class='slds-var-m-around_medium'>
+            <template if:true={oppData}>
+                <template for:each={oppData} for:item="rec">
+                    <p key={rec.fields.Id.value}>
+                        <b>{rec.fields.Name.value}</b> - {rec.fields.StageName.value}
+                    </p>
+                </template>
+            </template>
+            <template if:true={oppError}>
+                {oppError}
+            </template>
+        </div>
+    </lightning-card>
+    <br>
+    <lightning-card title="Case Related List" icon-name="action:new_case">
+        <div class='slds-var-m-around_medium'>
+            <template if:true={caseData}>
+                <template for:each={caseData} for:item="rec">
+                    <p key={rec.fields.Id.value}>
+                        <b>{rec.fields.CaseNumber.value}</b> - {rec.fields.Subject.value}
+                    </p>
+                </template>
+            </template>
+            <template if:true={caseError}>
+                {caseError}
+            </template>
+        </div>
+    </lightning-card>
+</template>
