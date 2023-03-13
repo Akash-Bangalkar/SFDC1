@@ -23,8 +23,8 @@
     <redirectToCustomDomain>false</redirectToCustomDomain>
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>CommunitiesSelfReg</selfRegPage>
-    <siteAdmin>akash12@flexagon.devorg</siteAdmin>
-    <siteGuestRecordDefaultOwner>akash12@flexagon.devorg</siteGuestRecordDefaultOwner>
+    <siteAdmin>akash@flexagon.devorg</siteAdmin>
+    <siteGuestRecordDefaultOwner>akash@flexagon.devorg</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
     <urlPathPrefix>samplesite</urlPathPrefix>
 </CustomSite>
