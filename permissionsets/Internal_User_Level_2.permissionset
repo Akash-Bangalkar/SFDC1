@@ -10,6 +10,16 @@
       <field>Asset__c.Customer_Type__c</field>
       <readable>true</readable>
    </fieldPermissions>
+   <fieldPermissions>
+      <editable>false</editable>
+      <field>Accessory__c.Accessory_ID__c</field>
+      <readable>true</readable>
+   </fieldPermissions>
+   <fieldPermissions>
+      <editable>true</editable>
+      <field>Accessory__c.Accessory_Type__c</field>
+      <readable>true</readable>
+   </fieldPermissions>
    <hasActivationRequired>false</hasActivationRequired>
    <label>Internal User Level 2</label>
    <objectPermissions>
@@ -21,4 +31,21 @@
       <object>Asset__c</object>
       <viewAllRecords>false</viewAllRecords>
    </objectPermissions>
+   <objectPermissions>
+      <allowCreate>true</allowCreate>
+      <allowDelete>true</allowDelete>
+      <allowEdit>true</allowEdit>
+      <allowRead>true</allowRead>
+      <modifyAllRecords>false</modifyAllRecords>
+      <object>Accessory__c</object>
+      <viewAllRecords>false</viewAllRecords>
+   </objectPermissions>
+   <recordTypeVisibilities>
+      <recordType>Accessory__c.Non_Prime</recordType>
+      <visible>true</visible>
+   </recordTypeVisibilities>
+   <recordTypeVisibilities>
+      <recordType>Accessory__c.Prime</recordType>
+      <visible>true</visible>
+   </recordTypeVisibilities>
 </PermissionSet>
