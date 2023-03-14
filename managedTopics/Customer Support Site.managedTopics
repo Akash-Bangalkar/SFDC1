@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ManagedTopics xmlns="http://soap.sforce.com/2006/04/metadata">
+    <managedTopic>
+        <fullName>Customer Support Site.Featured:Batteries</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Batteries</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Customer Support Site.Featured:Inverters</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Inverters</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Customer Support Site.Featured:Solar Panels</fullName>
+        <managedTopicType>Featured</managedTopicType>
+        <name>Solar Panels</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Customer Support Site.Navigational:Batteries</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Batteries</name>
+        <parentName></parentName>
+        <position>2</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Customer Support Site.Navigational:Inverters</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Inverters</name>
+        <parentName></parentName>
+        <position>1</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+    <managedTopic>
+        <fullName>Customer Support Site.Navigational:Solar Panels</fullName>
+        <managedTopicType>Navigational</managedTopicType>
+        <name>Solar Panels</name>
+        <parentName></parentName>
+        <position>0</position>
+        <topicDescription> </topicDescription>
+    </managedTopic>
+</ManagedTopics>
