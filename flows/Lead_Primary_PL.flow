@@ -171,7 +171,6 @@
         <label>Update Lead Status - Primary</label>
         <locationX>100</locationX>
         <locationY>200</locationY>
-        <filterLogic>and</filterLogic>
         <filters>
             <processMetadataValues>
                 <name>implicit</name>
