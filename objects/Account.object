@@ -1058,10 +1058,6 @@
         <picklistValues>
             <picklist>Rating</picklist>
             <values>
-                <fullName>Freeze</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Hot</fullName>
                 <default>false</default>
             </values>
