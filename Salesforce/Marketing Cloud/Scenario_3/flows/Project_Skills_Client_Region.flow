@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <decisions>
+        <name>Decision_x1</name>
+        <label>Decision_x1</label>
+        <locationX>314</locationX>
+        <locationY>335</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Region_Asia</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Location__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Asia</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>update</targetReference>
+            </connector>
+            <label>Region - Asia</label>
+        </rules>
+        <rules>
+            <name>Region_Africa</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Location__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Africa</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Update_Skills_2</targetReference>
+            </connector>
+            <label>Region - Africa</label>
+        </rules>
+    </decisions>
+    <interviewLabel>Project Skills - Client Region {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Project Skills - Client Region</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>update</name>
+        <label>Update Skills</label>
+        <locationX>50</locationX>
+        <locationY>455</locationY>
+        <inputAssignments>
+            <field>Skills__c</field>
+            <value>
+                <stringValue>Python:JS</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Projects__r</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_Skills_2</name>
+        <label>Update Skills2</label>
+        <locationX>314</locationX>
+        <locationY>455</locationY>
+        <inputAssignments>
+            <field>Skills__c</field>
+            <value>
+                <stringValue>HTML:CSS</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Projects__r</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>188</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Decision_x1</targetReference>
+        </connector>
+        <object>Client__c</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>
