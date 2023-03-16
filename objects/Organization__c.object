@@ -205,6 +205,10 @@
       <picklistValues>
          <picklist>Type__c</picklist>
          <values>
+            <fullName>AMN</fullName>
+            <default>false</default>
+         </values>
+         <values>
             <fullName>LLC</fullName>
             <default>false</default>
          </values>
