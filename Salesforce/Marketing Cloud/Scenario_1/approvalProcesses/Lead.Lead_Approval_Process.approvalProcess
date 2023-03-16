@@ -30,7 +30,7 @@
     </entryCriteria>
     <finalApprovalActions>
         <action>
-            <name>Update1</name>
+            <name>Update_1</name>
             <type>FieldUpdate</type>
         </action>
     </finalApprovalActions>
