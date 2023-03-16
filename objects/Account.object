@@ -280,11 +280,6 @@
                <label>Yes</label>
             </value>
             <value>
-               <fullName>NA</fullName>
-               <default>false</default>
-               <label>NA</label>
-            </value>
-            <value>
                <fullName>Not Sure</fullName>
                <default>false</default>
                <label>Not Sure</label>
