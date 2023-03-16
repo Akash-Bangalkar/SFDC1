@@ -902,10 +902,6 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Commerce</fullName>
-                <default>false</default>
-            </values>
-            <values>
                 <fullName>Communications</fullName>
                 <default>false</default>
             </values>
