@@ -279,11 +279,6 @@
                <default>false</default>
                <label>Yes</label>
             </value>
-            <value>
-               <fullName>Not Sure</fullName>
-               <default>false</default>
-               <label>Not Sure</label>
-            </value>
          </valueSetDefinition>
       </valueSet>
    </fields>
