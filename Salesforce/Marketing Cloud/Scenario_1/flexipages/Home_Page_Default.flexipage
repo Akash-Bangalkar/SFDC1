@@ -31,12 +31,6 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>testLwcScenario</componentName>
-                <identifier>c_testLwcScenario</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
                 <componentName>home:topDealsContainer</componentName>
                 <identifier>home_topDealsContainer</identifier>
             </componentInstance>
