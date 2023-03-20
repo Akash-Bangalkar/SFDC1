@@ -3,6 +3,5 @@
     <customNotifTypeName>Asset Notification</customNotifTypeName>
     <desktop>true</desktop>
     <masterLabel>Asset Notification</masterLabel>
-    <mobile>true</mobile>
-    <slack>false</slack>
+    <mobile>false</mobile>
 </CustomNotificationType>
