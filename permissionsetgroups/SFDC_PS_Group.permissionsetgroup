@@ -3,6 +3,7 @@
     <description>Testing PS Group</description>
     <hasActivationRequired>true</hasActivationRequired>
     <label>SFDC PS Group</label>
+    <mutingPermissionSets>SFDC_PS_Group_Muted</mutingPermissionSets>
     <permissionSets>Internal_User_Level_2</permissionSets>
     <status>Updated</status>
 </PermissionSetGroup>
