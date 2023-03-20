@@ -34,7 +34,7 @@
       <fields>Id</fields>
       <fields>Lead__c</fields>
       <includeSessionId>false</includeSessionId>
-      <integrationUser>akash@flexagon.devorg</integrationUser>
+      <integrationUser>akash12@flexagon.devorg</integrationUser>
       <name>MessageAction</name>
       <protected>false</protected>
       <useDeadLetterQueue>false</useDeadLetterQueue>
