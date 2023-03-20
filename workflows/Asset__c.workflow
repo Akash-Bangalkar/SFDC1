@@ -25,11 +25,29 @@
       <protected>false</protected>
       <reevaluateOnChange>false</reevaluateOnChange>
    </fieldUpdates>
+   <outboundMessages>
+      <fullName>MessageAction</fullName>
+      <apiVersion>57.0</apiVersion>
+      <endpointUrl>https://flexagon.com/</endpointUrl>
+      <fields>Asset_Available__c</fields>
+      <fields>Asset_Type__c</fields>
+      <fields>Id</fields>
+      <fields>Lead__c</fields>
+      <includeSessionId>false</includeSessionId>
+      <integrationUser>akash@flexagon.devorg</integrationUser>
+      <name>MessageAction</name>
+      <protected>false</protected>
+      <useDeadLetterQueue>false</useDeadLetterQueue>
+   </outboundMessages>
    <rules>
       <fullName>Rule1</fullName>
       <actions>
          <name>New_Email_Alert</name>
          <type>Alert</type>
+      </actions>
+      <actions>
+         <name>MessageAction</name>
+         <type>OutboundMessage</type>
       </actions>
       <actions>
          <name>WF_Testing</name>
