@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Testing PS Group</description>
+    <hasActivationRequired>true</hasActivationRequired>
+    <label>SFDC PS Group</label>
+    <permissionSets>Internal_User_Level_2</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>
