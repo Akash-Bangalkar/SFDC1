@@ -30,7 +30,7 @@
    </rules>
    <tasks>
       <fullName>WF_Testing</fullName>
-      <assignedTo>akash@flexagon.devorg</assignedTo>
+      <assignedTo>akash12@flexagon.devorg</assignedTo>
       <assignedToType>user</assignedToType>
       <description>Workflow Testing by AkashFlex</description>
       <dueDateOffset>10</dueDateOffset>
