@@ -9,7 +9,7 @@
          <type>role</type>
       </recipients>
       <recipients>
-         <recipient>akash@flexagon.devorg</recipient>
+         <recipient>akash12@flexagon.devorg</recipient>
          <type>user</type>
       </recipients>
       <senderType>CurrentUser</senderType>
