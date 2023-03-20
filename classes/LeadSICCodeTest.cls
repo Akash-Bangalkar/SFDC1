@@ -14,6 +14,12 @@ private class LeadSICCodeTest {
         leadList.add(ld);
         
         Insert leadList;
+        
+        Asset__c ass1 = New Asset__c();
+        ass1.Asset_Type__c = 'Saving Account';
+        ass1.Lead__c = ld.Id;
+        
+        Insert ass1;
     }
     
     @isTest
@@ -32,5 +38,9 @@ private class LeadSICCodeTest {
         
         List<Lead> ldCheck = [SELECT ID, SICCode__c FROM Lead WHERE SICCode__c!=NULL];
         System.assertEquals(1, ldCheck.size());
+        
+        List<Asset__c> asCheck = [SELECT ID, Asset_Available__c FROM Asset__c WHERE Asset_Available__c = TRUE];
+        System.assertEquals(1, asCheck.size());
+
     }
 }

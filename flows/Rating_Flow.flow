@@ -5,7 +5,7 @@
         <name>Check_Rating_Null</name>
         <label>Check Rating Null</label>
         <locationX>446</locationX>
-        <locationY>671</locationY>
+        <locationY>791</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Lead_Status_Working</name>
@@ -168,6 +168,30 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordUpdates>
+        <name>Update_Asset_Available</name>
+        <label>Update Asset Available</label>
+        <locationX>50</locationX>
+        <locationY>575</locationY>
+        <connector>
+            <targetReference>Check_Rating_Null</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Lead__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Asset_Available__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <object>Asset__c</object>
+    </recordUpdates>
+    <recordUpdates>
         <name>Update_Rating_Cold</name>
         <label>Update Rating - Cold</label>
         <locationX>578</locationX>
@@ -189,7 +213,7 @@
         <locationX>50</locationX>
         <locationY>455</locationY>
         <connector>
-            <targetReference>Check_Rating_Null</targetReference>
+            <targetReference>Update_Asset_Available</targetReference>
         </connector>
         <inputAssignments>
             <field>Rating</field>
@@ -219,7 +243,7 @@
         <name>Update_Status_Nurturing</name>
         <label>Update Status - Nurturing</label>
         <locationX>446</locationX>
-        <locationY>791</locationY>
+        <locationY>911</locationY>
         <inputAssignments>
             <field>Status</field>
             <value>
@@ -232,7 +256,7 @@
         <name>Update_Status_Working</name>
         <label>Update Status - Working</label>
         <locationX>182</locationX>
-        <locationY>791</locationY>
+        <locationY>911</locationY>
         <inputAssignments>
             <field>Status</field>
             <value>
@@ -251,5 +275,5 @@
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
 </Flow>
