@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+   <alerts>
+      <fullName>New_Email_Alert</fullName>
+      <description>New Email Alert</description>
+      <protected>false</protected>
+      <recipients>
+         <recipient>Project_Manager</recipient>
+         <type>role</type>
+      </recipients>
+      <recipients>
+         <recipient>akash@flexagon.devorg</recipient>
+         <type>user</type>
+      </recipients>
+      <senderType>CurrentUser</senderType>
+      <template>unfiled$public/SupportCaseResponse</template>
+   </alerts>
    <fieldUpdates>
       <fullName>Field_Update_Asset</fullName>
       <field>Asset_Available__c</field>
@@ -13,8 +28,8 @@
    <rules>
       <fullName>Rule1</fullName>
       <actions>
-         <name>Field_Update_Asset</name>
-         <type>FieldUpdate</type>
+         <name>New_Email_Alert</name>
+         <type>Alert</type>
       </actions>
       <actions>
          <name>WF_Testing</name>
