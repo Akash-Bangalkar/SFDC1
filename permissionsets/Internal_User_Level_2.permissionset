@@ -20,6 +20,16 @@
       <field>Asset__c.Customer_Type__c</field>
       <readable>true</readable>
    </fieldPermissions>
+   <fieldPermissions>
+      <editable>true</editable>
+      <field>Client__c.Client_Name__c</field>
+      <readable>true</readable>
+   </fieldPermissions>
+   <fieldPermissions>
+      <editable>true</editable>
+      <field>Client__c.Location__c</field>
+      <readable>true</readable>
+   </fieldPermissions>
    <hasActivationRequired>false</hasActivationRequired>
    <label>Internal User Level 2</label>
    <objectPermissions>
@@ -38,6 +48,15 @@
       <allowRead>true</allowRead>
       <modifyAllRecords>false</modifyAllRecords>
       <object>Asset__c</object>
+      <viewAllRecords>false</viewAllRecords>
+   </objectPermissions>
+   <objectPermissions>
+      <allowCreate>true</allowCreate>
+      <allowDelete>true</allowDelete>
+      <allowEdit>true</allowEdit>
+      <allowRead>true</allowRead>
+      <modifyAllRecords>false</modifyAllRecords>
+      <object>Client__c</object>
       <viewAllRecords>false</viewAllRecords>
    </objectPermissions>
    <recordTypeVisibilities>
