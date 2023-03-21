@@ -3,5 +3,5 @@
     <customNotifTypeName>Asset Notification</customNotifTypeName>
     <desktop>true</desktop>
     <masterLabel>Asset Notification</masterLabel>
-    <mobile>false</mobile>
+    <mobile>true</mobile>
 </CustomNotificationType>
