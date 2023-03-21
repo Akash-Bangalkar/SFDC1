@@ -26,6 +26,10 @@
                 <behavior>Readonly</behavior>
                 <field>Ext_ID__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>New_Ext__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

@@ -225,6 +225,15 @@
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>New_Ext__c</fullName>
+        <displayFormat>FD-{0}</displayFormat>
+        <externalId>true</externalId>
+        <label>New Ext</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
     <label>Client</label>
     <listViews>
         <fullName>All</fullName>
@@ -232,6 +241,7 @@
         <columns>Client_Name__c</columns>
         <columns>Location__c</columns>
         <columns>External_TXT__c</columns>
+        <columns>Ext_ID__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
