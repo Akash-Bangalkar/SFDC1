@@ -165,13 +165,15 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>External_ID__c</fullName>
-        <displayFormat>XD-{0}</displayFormat>
+        <fullName>External_TXT__c</fullName>
         <externalId>true</externalId>
-        <label>External ID</label>
+        <label>External TXT</label>
+        <length>5</length>
+        <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
-        <type>AutoNumber</type>
+        <type>Text</type>
+        <unique>false</unique>
     </fields>
     <fields>
         <fullName>Location__c</fullName>
@@ -218,8 +220,8 @@
         <fullName>All</fullName>
         <columns>NAME</columns>
         <columns>Client_Name__c</columns>
-        <columns>External_ID__c</columns>
         <columns>Location__c</columns>
+        <columns>External_TXT__c</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>

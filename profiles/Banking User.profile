@@ -1205,8 +1205,8 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
-        <field>Client__c.External_ID__c</field>
+        <editable>true</editable>
+        <field>Client__c.External_TXT__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>

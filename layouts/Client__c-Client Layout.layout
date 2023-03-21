@@ -19,8 +19,8 @@
                 <field>Location__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>External_ID__c</field>
+                <behavior>Edit</behavior>
+                <field>External_TXT__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
