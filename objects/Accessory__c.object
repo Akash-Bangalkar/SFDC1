@@ -267,7 +267,7 @@
       </picklistValues>
    </recordTypes>
    <recordTypes>
-      <fullName>N1_Prime</fullName>
+      <fullName>N2_Prime</fullName>
       <active>true</active>
       <compactLayoutAssignment>Accessory_CL</compactLayoutAssignment>
       <label>N1-Prime</label>
