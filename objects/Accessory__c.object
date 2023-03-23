@@ -267,10 +267,10 @@
       </picklistValues>
    </recordTypes>
    <recordTypes>
-      <fullName>N_Prime</fullName>
+      <fullName>N1_Prime</fullName>
       <active>true</active>
       <compactLayoutAssignment>Accessory_CL</compactLayoutAssignment>
-      <label>N-Prime</label>
+      <label>N1-Prime</label>
       <picklistValues>
          <picklist>Accessory_Type__c</picklist>
          <values>
