@@ -244,6 +244,17 @@
         <trackTrending>false</trackTrending>
     </fields>
     <fields>
+        <fullName>External_TXT__c</fullName>
+        <externalId>true</externalId>
+        <label>External TXT</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>IqScore</fullName>
         <trackTrending>false</trackTrending>
     </fields>
