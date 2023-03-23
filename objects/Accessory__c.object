@@ -235,10 +235,9 @@
    <pluralLabel>Accessories</pluralLabel>
    <recordTypeTrackHistory>false</recordTypeTrackHistory>
    <recordTypes>
-      <fullName>Non_Prime</fullName>
+      <fullName>Prime</fullName>
       <active>true</active>
-      <compactLayoutAssignment>Accessory_CL</compactLayoutAssignment>
-      <label>N-Prime</label>
+      <label>Prime</label>
       <picklistValues>
          <picklist>Accessory_Type__c</picklist>
          <values>
@@ -268,9 +267,10 @@
       </picklistValues>
    </recordTypes>
    <recordTypes>
-      <fullName>Prime</fullName>
+      <fullName>N_Prime</fullName>
       <active>true</active>
-      <label>Prime</label>
+      <compactLayoutAssignment>Accessory_CL</compactLayoutAssignment>
+      <label>N-Prime</label>
       <picklistValues>
          <picklist>Accessory_Type__c</picklist>
          <values>
