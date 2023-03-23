@@ -270,7 +270,7 @@
       <fullName>N2_Prime</fullName>
       <active>true</active>
       <compactLayoutAssignment>Accessory_CL</compactLayoutAssignment>
-      <label>N2-Prime</label>
+      <label>N3-Prime</label>
       <picklistValues>
          <picklist>Accessory_Type__c</picklist>
          <values>
