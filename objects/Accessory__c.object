@@ -237,7 +237,8 @@
    <recordTypes>
       <fullName>Non_Prime</fullName>
       <active>true</active>
-      <label>Non-Prime</label>
+      <compactLayoutAssignment>Accessory_CL</compactLayoutAssignment>
+      <label>N-Prime</label>
       <picklistValues>
          <picklist>Accessory_Type__c</picklist>
          <values>
