@@ -407,6 +407,41 @@
          </values>
       </picklistValues>
    </recordTypes>
+   <recordTypes>
+      <fullName>New_RT2</fullName>
+      <active>true</active>
+      <label>New RT</label>
+      <picklistValues>
+         <picklist>Asset_Type__c</picklist>
+         <values>
+            <fullName>Fix Deposit</fullName>
+            <default>false</default>
+         </values>
+         <values>
+            <fullName>Saving Account</fullName>
+            <default>false</default>
+         </values>
+      </picklistValues>
+      <picklistValues>
+         <picklist>Customer_Type__c</picklist>
+         <values>
+            <fullName>General Public</fullName>
+            <default>false</default>
+         </values>
+         <values>
+            <fullName>Government Servant</fullName>
+            <default>false</default>
+         </values>
+         <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+         </values>
+         <values>
+            <fullName>Staff</fullName>
+            <default>false</default>
+         </values>
+      </picklistValues>
+   </recordTypes>
    <searchLayouts/>
    <sharingModel>ReadWrite</sharingModel>
    <visibility>Public</visibility>
