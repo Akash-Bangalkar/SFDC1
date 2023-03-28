@@ -340,7 +340,7 @@
    <recordTypes>
       <fullName>N2_Prime</fullName>
       <active>true</active>
-      <label>N4_Prime</label>
+      <label>N5_Prime</label>
       <picklistValues>
          <picklist>Asset_Type__c</picklist>
          <values>
