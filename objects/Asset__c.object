@@ -380,9 +380,9 @@
       </picklistValues>
    </recordTypes>
    <recordTypes>
-      <fullName>New_RT1</fullName>
+      <fullName>New_RT</fullName>
       <active>true</active>
-      <label>New RT</label>
+      <label>New RT3</label>
       <picklistValues>
          <picklist>Asset_Type__c</picklist>
          <values>
