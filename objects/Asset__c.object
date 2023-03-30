@@ -382,7 +382,7 @@
    <recordTypes>
       <fullName>New_RT1</fullName>
       <active>true</active>
-      <label>New RT1</label>
+      <label>New RT</label>
       <picklistValues>
          <picklist>Asset_Type__c</picklist>
          <values>
