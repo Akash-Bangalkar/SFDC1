@@ -261,6 +261,34 @@
       <fields>Location__c</fields>
       <profileName>System Administrator</profileName>
    </profileSearchLayouts>
+   <recordTypes>
+      <fullName>Global_Innovation_Ecosystem</fullName>
+      <active>true</active>
+      <label>Global Innovation Ecosystem</label>
+      <picklistValues>
+         <picklist>Location__c</picklist>
+         <values>
+            <fullName>Africa</fullName>
+            <default>false</default>
+         </values>
+         <values>
+            <fullName>Asia</fullName>
+            <default>false</default>
+         </values>
+         <values>
+            <fullName>Central and Eastern Europe</fullName>
+            <default>false</default>
+         </values>
+         <values>
+            <fullName>Mediterranean %26 Middle East</fullName>
+            <default>false</default>
+         </values>
+         <values>
+            <fullName>Western Europe</fullName>
+            <default>false</default>
+         </values>
+      </picklistValues>
+   </recordTypes>
    <searchLayouts/>
    <sharingModel>ReadWrite</sharingModel>
    <visibility>Public</visibility>
