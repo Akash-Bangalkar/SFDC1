@@ -87,4 +87,8 @@
       <tab>Project__c</tab>
       <visibility>Visible</visibility>
    </tabSettings>
+   <tabSettings>
+      <tab>PS_Test__c</tab>
+      <visibility>Visible</visibility>
+   </tabSettings>
 </PermissionSet>
