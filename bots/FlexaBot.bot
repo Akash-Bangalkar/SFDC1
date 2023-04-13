@@ -2,11 +2,27 @@
 <Bot xmlns="http://soap.sforce.com/2006/04/metadata">
     <botMlDomain>
         <label>FlexaBot</label>
+        <mlSlotClasses>
+            <dataType>Text</dataType>
+            <developerName>New_Product_Entity_Test</developerName>
+            <extractionType>Value</extractionType>
+            <label>New Product Entity Test</label>
+        </mlSlotClasses>
         <name>FlexaBot</name>
     </botMlDomain>
     <botVersions>
         <fullName>v1</fullName>
         <botDialogs>
+            <botSteps>
+                <botMessages>
+                    <message>Hello, this is FlexaBot
+
+How may I help you ?</message>
+                    <messageIdentifier>46a99a00-8ba9-13a0-1cf7-1f034fb86761</messageIdentifier>
+                </botMessages>
+                <stepIdentifier>da1d5422-0269-4470-b809-185c34b61dab</stepIdentifier>
+                <type>Message</type>
+            </botSteps>
             <botSteps>
                 <stepIdentifier>b6b9f12b-f9dc-4a7c-a908-cdcc45225869</stepIdentifier>
                 <type>Wait</type>
@@ -18,6 +34,14 @@
         </botDialogs>
         <botDialogs>
             <botSteps>
+                <botInvocation>
+                    <invocationActionName>setup_bot__IntroBotCreateCase</invocationActionName>
+                    <invocationActionType>flow</invocationActionType>
+                </botInvocation>
+                <stepIdentifier>236f88c6-8538-443d-b704-94fc781ff3d6</stepIdentifier>
+                <type>Invocation</type>
+            </botSteps>
+            <botSteps>
                 <stepIdentifier>2f8d037f-830b-456e-a092-88e86d39197f</stepIdentifier>
                 <type>Wait</type>
             </botSteps>
@@ -27,6 +51,28 @@
             <showInFooterMenu>false</showInFooterMenu>
         </botDialogs>
         <botDialogs>
+            <botSteps>
+                <botVariableOperation>
+                    <askCollectIfSet>false</askCollectIfSet>
+                    <botMessages>
+                        <message>Which product you are looking for ?</message>
+                        <messageIdentifier>47b07a2f-39ae-9042-89b6-ee007615be87</messageIdentifier>
+                    </botMessages>
+                    <botVariableOperands>
+                        <disableAutoFill>true</disableAutoFill>
+                        <sourceName>New_Product_Entity_Test</sourceName>
+                        <sourceType>MlSlotClass</sourceType>
+                        <targetName>FlexaBot_Var</targetName>
+                        <targetType>ConversationVariable</targetType>
+                    </botVariableOperands>
+                    <optionalCollect>false</optionalCollect>
+                    <quickReplyWidgetType>Buttons</quickReplyWidgetType>
+                    <type>Collect</type>
+                    <variableOperationIdentifier>e55ed7e8-dd53-5bc4-204b-f43aa42644d4</variableOperationIdentifier>
+                </botVariableOperation>
+                <stepIdentifier>899974ae-17f5-4c0d-b913-c960cf089132</stepIdentifier>
+                <type>VariableOperation</type>
+            </botSteps>
             <botSteps>
                 <stepIdentifier>ac066afa-b1fe-4d5e-b00e-0e8d2a0d4706</stepIdentifier>
                 <type>Wait</type>
@@ -55,6 +101,7 @@
                 <stepIdentifier>0dfe3f3e-8a0d-407b-89fa-a1d119c8eec0</stepIdentifier>
                 <type>Navigation</type>
             </botSteps>
+            <description>Welcome FlexaBot</description>
             <developerName>Welcome</developerName>
             <isPlaceholderDialog>false</isPlaceholderDialog>
             <label>Welcome</label>
@@ -181,6 +228,11 @@
             <dialog>No_Agent_Available</dialog>
             <type>TransferFailed</type>
         </conversationSystemDialogs>
+        <conversationVariables>
+            <dataType>Text</dataType>
+            <developerName>FlexaBot_Var</developerName>
+            <label>FlexaBot Var</label>
+        </conversationVariables>
         <entryDialog>Welcome</entryDialog>
         <mainMenuDialog>Main_Menu</mainMenuDialog>
         <nlpProviders>
