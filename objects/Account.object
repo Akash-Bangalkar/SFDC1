@@ -753,6 +753,45 @@
       <fullName>YearStarted</fullName>
       <trackFeedHistory>false</trackFeedHistory>
    </fields>
+   <fields>
+      <fullName>Account_Section__c</fullName>
+      <externalId>false</externalId>
+      <label>Account Section</label>
+      <required>false</required>
+      <trackFeedHistory>false</trackFeedHistory>
+      <type>Picklist</type>
+      <valueSet>
+         <restricted>true</restricted>
+         <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+               <fullName>Section A</fullName>
+               <default>false</default>
+               <label>Section A</label>
+            </value>
+            <value>
+               <fullName>Section B</fullName>
+               <default>false</default>
+               <label>Section B</label>
+            </value>
+            <value>
+               <fullName>Section C</fullName>
+               <default>false</default>
+               <label>Section C</label>
+            </value>
+            <value>
+               <fullName>Section D</fullName>
+               <default>false</default>
+               <label>Section D</label>
+            </value>
+            <value>
+               <fullName>Section E</fullName>
+               <default>false</default>
+               <label>Section E</label>
+            </value>
+         </valueSetDefinition>
+      </valueSet>
+   </fields>
    <listViews>
       <fullName>AllAccounts</fullName>
       <columns>ACCOUNT.NAME</columns>
