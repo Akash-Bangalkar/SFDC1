@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RecommendationStrategy xmlns="http://soap.sforce.com/2006/04/metadata">
     <contextRecordType>Account</contextRecordType>
+    <filter>
+        <label>Limit1</label>
+        <name>Limit1</name>
+        <expression>ActionReference = Test</expression>
+    </filter>
     <label>Test Component</label>
     <recommendationLoad>
         <label>Load1</label>
@@ -28,6 +33,7 @@
     <union>
         <childNode>Load1</childNode>
         <childNode>Sort1</childNode>
+        <childNode>Limit1</childNode>
         <childNode>Branch1</childNode>
         <label>Output</label>
         <name>Output_8e86f793019b4e31a4fecc6101ea7438</name>
