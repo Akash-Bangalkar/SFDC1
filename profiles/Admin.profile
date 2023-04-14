@@ -4205,6 +4205,41 @@
       <field>Account.Account_Section__c</field>
       <readable>true</readable>
    </fieldPermissions>
+   <fieldPermissions>
+      <editable>true</editable>
+      <field>Campaign.External_TXT__c</field>
+      <readable>true</readable>
+   </fieldPermissions>
+   <fieldPermissions>
+      <editable>true</editable>
+      <field>Case.External_TXT__c</field>
+      <readable>true</readable>
+   </fieldPermissions>
+   <fieldPermissions>
+      <editable>true</editable>
+      <field>Lead.External_TXT__c</field>
+      <readable>true</readable>
+   </fieldPermissions>
+   <fieldPermissions>
+      <editable>true</editable>
+      <field>EmailMessage.External_TXT__c</field>
+      <readable>true</readable>
+   </fieldPermissions>
+   <fieldPermissions>
+      <editable>true</editable>
+      <field>MessagingSession.External_TXT__c</field>
+      <readable>true</readable>
+   </fieldPermissions>
+   <fieldPermissions>
+      <editable>true</editable>
+      <field>PS_Test__c.External_TXT__c</field>
+      <readable>true</readable>
+   </fieldPermissions>
+   <fieldPermissions>
+      <editable>true</editable>
+      <field>PS_Test__c.Number_of_Tests__c</field>
+      <readable>true</readable>
+   </fieldPermissions>
    <flowAccesses>
       <enabled>false</enabled>
       <flow>Lead_Primary_PL</flow>
