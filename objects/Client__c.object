@@ -294,10 +294,9 @@
    <validationRules>
       <fullName>Client_Name</fullName>
       <active>true</active>
-      <description>Client Name Length Should Be More Than 3</description>
-      <errorConditionFormula>LEN(Client_Name__c) &lt; 4</errorConditionFormula>
-      <errorDisplayField>Client_Name__c</errorDisplayField>
-      <errorMessage>Enter Valid Name</errorMessage>
+      <description>Client Name Length Should Be More Than 4</description>
+      <errorConditionFormula>LEN(Client_Name__c) &lt; 5</errorConditionFormula>
+      <errorMessage>Enter Valid Client Name</errorMessage>
    </validationRules>
    <visibility>Public</visibility>
 </CustomObject>
