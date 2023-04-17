@@ -291,5 +291,13 @@
    </recordTypes>
    <searchLayouts/>
    <sharingModel>ReadWrite</sharingModel>
+   <validationRules>
+      <fullName>Client_Name</fullName>
+      <active>true</active>
+      <description>Client Name Length Should Be More Than 3</description>
+      <errorConditionFormula>LEN(Client_Name__c) &lt; 4</errorConditionFormula>
+      <errorDisplayField>Client_Name__c</errorDisplayField>
+      <errorMessage>Enter Valid Name</errorMessage>
+   </validationRules>
    <visibility>Public</visibility>
 </CustomObject>
