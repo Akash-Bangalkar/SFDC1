@@ -55,18 +55,6 @@
             <behavior>Edit</behavior>
             <field>Picklist2__c</field>
          </layoutItems>
-         <layoutItems>
-            <behavior>Edit</behavior>
-            <field>City__c</field>
-         </layoutItems>
-         <layoutItems>
-            <behavior>Edit</behavior>
-            <field>Code__c</field>
-         </layoutItems>
-         <layoutItems>
-            <behavior>Edit</behavior>
-            <field>Account_Section__c</field>
-         </layoutItems>
       </layoutColumns>
       <layoutColumns>
          <layoutItems>
@@ -100,6 +88,18 @@
          <layoutItems>
             <behavior>Edit</behavior>
             <field>Sic</field>
+         </layoutItems>
+         <layoutItems>
+            <behavior>Edit</behavior>
+            <field>Account_Section__c</field>
+         </layoutItems>
+         <layoutItems>
+            <behavior>Edit</behavior>
+            <field>City__c</field>
+         </layoutItems>
+         <layoutItems>
+            <behavior>Edit</behavior>
+            <field>Code__c</field>
          </layoutItems>
       </layoutColumns>
       <style>TwoColumnsTopToBottom</style>
