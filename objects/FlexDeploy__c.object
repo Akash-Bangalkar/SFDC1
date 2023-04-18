@@ -321,7 +321,14 @@
       <type>Text</type>
    </nameField>
    <pluralLabel>Flexa Net</pluralLabel>
-   <searchLayouts/>
+   <searchLayouts>
+      <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+      <excludedStandardButtons>NewFromDocument</excludedStandardButtons>
+      <excludedStandardButtons>PrintableListView</excludedStandardButtons>
+      <excludedStandardButtons>Import</excludedStandardButtons>
+      <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+      <excludedStandardButtons>Accept</excludedStandardButtons>
+   </searchLayouts>
    <sharingModel>ReadWrite</sharingModel>
    <visibility>Public</visibility>
 </CustomObject>
