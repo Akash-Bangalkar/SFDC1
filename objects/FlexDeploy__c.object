@@ -287,6 +287,14 @@
          </valueSetDefinition>
       </valueSet>
    </fields>
+   <fields>
+      <fullName>Submit_Time__c</fullName>
+      <externalId>false</externalId>
+      <label>Submit Time</label>
+      <required>false</required>
+      <trackTrending>false</trackTrending>
+      <type>Time</type>
+   </fields>
    <label>Flexa Net</label>
    <listViews>
       <fullName>All</fullName>
