@@ -11,11 +11,6 @@
         <label>India</label>
     </customValue>
     <customValue>
-        <fullName>New Zealand</fullName>
-        <default>false</default>
-        <label>New Zealand</label>
-    </customValue>
-    <customValue>
         <fullName>Spain</fullName>
         <default>false</default>
         <label>Spain</label>
@@ -30,6 +25,13 @@
         <default>false</default>
         <label>United States</label>
     </customValue>
+    <customValue>
+        <fullName>New Zealand</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>New Zealand</label>
+    </customValue>
+    <description>List of Countries</description>
     <masterLabel>Country</masterLabel>
     <sorted>true</sorted>
 </GlobalValueSet>
