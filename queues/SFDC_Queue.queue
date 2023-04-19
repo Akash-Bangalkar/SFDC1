@@ -4,11 +4,15 @@
     <name>SFDC1 Queue</name>
     <queueMembers>
         <publicGroups>
+            <publicGroup>SFDC1_PG</publicGroup>
             <publicGroup>AllInternalUsers</publicGroup>
         </publicGroups>
         <roles>
             <role>Project_Manager</role>
         </roles>
+        <users>
+            <user>akash@flexagon.devorg</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>Accessory__c</sobjectType>
