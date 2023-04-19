@@ -6,11 +6,6 @@
         <label>Australia</label>
     </customValue>
     <customValue>
-        <fullName>India</fullName>
-        <default>false</default>
-        <label>India</label>
-    </customValue>
-    <customValue>
         <fullName>Spain</fullName>
         <default>false</default>
         <label>Spain</label>
@@ -28,8 +23,18 @@
     <customValue>
         <fullName>New Zealand</fullName>
         <default>false</default>
-        <isActive>false</isActive>
         <label>New Zealand</label>
+    </customValue>
+    <customValue>
+        <fullName>Russia</fullName>
+        <default>false</default>
+        <label>Russia</label>
+    </customValue>
+    <customValue>
+        <fullName>India</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>India</label>
     </customValue>
     <description>List of Countries</description>
     <masterLabel>Country</masterLabel>
