@@ -5602,14 +5602,6 @@
    </userPermissions>
    <userPermissions>
       <enabled>true</enabled>
-      <name>IPRestrictRequests</name>
-   </userPermissions>
-   <userPermissions>
-      <enabled>true</enabled>
-      <name>ManageEntitlements</name>
-   </userPermissions>
-   <userPermissions>
-      <enabled>true</enabled>
       <name>ViewDraftArticles</name>
    </userPermissions>
    <userPermissions>
