@@ -3132,6 +3132,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Project_Skill__c.Technical__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Project_Skill__c.Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -4797,8 +4802,8 @@
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
     </layoutAssignments>
     <loginIpRanges>
-        <description>Env 84</description>
-        <endAddress>173.16.0.15</endAddress>
+        <description>undefined</description>
+        <endAddress>171.16.0.15</endAddress>
         <startAddress>0.0.0.0</startAddress>
     </loginIpRanges>
     <objectPermissions>

@@ -3132,6 +3132,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Project_Skill__c.Technical__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Project_Skill__c.Type__c</field>
         <readable>true</readable>
     </fieldPermissions>
