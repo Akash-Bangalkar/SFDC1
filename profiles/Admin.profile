@@ -3127,6 +3127,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Project_Skill__c.External_TXT__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Project_Skill__c.Rating__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -3748,6 +3753,11 @@
     <fieldPermissions>
         <editable>true</editable>
         <field>Skill__c.Experience__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Skill__c.External_TXT__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
