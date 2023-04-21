@@ -259,7 +259,7 @@
         <apexClass>TestDemo46</apexClass>
         <enabled>true</enabled>
     </classAccesses>
-    <custom>false</custom>
+    <custom>true</custom>
     <fieldPermissions>
         <editable>false</editable>
         <field>Accessory__c.Accessory_ID__c</field>
@@ -4796,6 +4796,11 @@
     <layoutAssignments>
         <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
     </layoutAssignments>
+    <loginIpRanges>
+        <description>Env 84</description>
+        <endAddress>173.16.0.15</endAddress>
+        <startAddress>0.0.0.0</startAddress>
+    </loginIpRanges>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
