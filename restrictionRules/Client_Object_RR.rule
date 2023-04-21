@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RestrictionRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <description>Testing Restriction Rules - Client__c</description>
+    <enforcementType>Restrict</enforcementType>
+    <masterLabel>Client Object RR</masterLabel>
+    <recordFilter>Client_Name__c=&apos;Syno Health&apos;</recordFilter>
+    <targetEntity>Client__c</targetEntity>
+    <userCriteria>$User.CompanyName=&apos;Flexagon&apos;</userCriteria>
+    <version>1</version>
+</RestrictionRule>
