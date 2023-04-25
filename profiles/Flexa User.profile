@@ -4803,7 +4803,7 @@
    </layoutAssignments>
    <loginIpRanges>
       <description>undefined</description>
-      <endAddress>171.16.0.15</endAddress>
+      <endAddress>50.1.1.1</endAddress>
       <startAddress>0.0.0.0</startAddress>
    </loginIpRanges>
    <objectPermissions>
