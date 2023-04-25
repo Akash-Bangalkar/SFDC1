@@ -4637,6 +4637,11 @@
    <layoutAssignments>
       <layout>WorkTypeGroupMember-Work Type Group Member Layout</layout>
    </layoutAssignments>
+   <loginIpRanges>
+      <description>undefined</description>
+      <endAddress>50.16.0.15</endAddress>
+      <startAddress>0.0.0.0</startAddress>
+   </loginIpRanges>
    <objectPermissions>
       <allowCreate>true</allowCreate>
       <allowDelete>true</allowDelete>
