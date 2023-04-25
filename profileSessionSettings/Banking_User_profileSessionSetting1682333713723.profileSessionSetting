@@ -5,6 +5,6 @@
     <profile>banking user</profile>
     <requiredSessionLevel>HIGH_ASSURANCE</requiredSessionLevel>
     <sessionPersistence>false</sessionPersistence>
-    <sessionTimeout>1440</sessionTimeout>
+    <sessionTimeout>480</sessionTimeout>
     <sessionTimeoutWarning>false</sessionTimeoutWarning>
 </ProfileSessionSetting>
