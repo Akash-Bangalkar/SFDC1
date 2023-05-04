@@ -80,7 +80,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>akash@flexagon.devorg</assignedTo>
+            <assignedTo>akash12@flexagon.devorg</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.Type</field>
