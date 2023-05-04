@@ -3,6 +3,6 @@
     <description>Flex Test</description>
     <developerName>OAuthCSTesting</developerName>
     <isProtected>false</isProtected>
-    <isPublic>false</isPublic>
+    <isPublic>true</isPublic>
     <masterLabel>OAuthCSTesting</masterLabel>
 </OauthCustomScope>
