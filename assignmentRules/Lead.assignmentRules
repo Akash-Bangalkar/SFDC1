@@ -4,7 +4,7 @@
         <fullName>New LD Assignment</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>akash12@flexagon.devorg</assignedTo>
+            <assignedTo>akash@flexagon.devorg</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Rating</field>
@@ -17,7 +17,7 @@
         <fullName>Standard</fullName>
         <active>false</active>
         <ruleEntry>
-            <assignedTo>akash12@flexagon.devorg</assignedTo>
+            <assignedTo>akash@flexagon.devorg</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
@@ -26,7 +26,7 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>akash12@flexagon.devorg</assignedTo>
+            <assignedTo>akash@flexagon.devorg</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Lead.Country</field>
