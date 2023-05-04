@@ -19,13 +19,13 @@
                 <notifyEmail>akashbangalkar@gmail.com</notifyEmail>
                 <notifyToTemplate>unfiled$public/SchedulerUnauthenticatedUserAppointmentTypeEmailTemplateForAmazonChime</notifyToTemplate>
             </escalationAction>
-<escalationAction>
-                <assignedTo>TX_Branch</assignedTo>
-				<assignedToTemplate>unfiled$public/SchedulerUnauthenticatedUserAppointmentTypeEmailTemplateForThirdParty</assignedToTemplate>
-                <assignedToType>Queue</assignedToType>
-                <minutesToEscalation>600</minutesToEscalation>
-                <notifyCaseOwner>false</notifyCaseOwner>
-            </escalationAction>
+		<escalationAction>
+			<assignedTo>TX_Branch</assignedTo>
+			<assignedToTemplate>unfiled$public/SchedulerUnauthenticatedUserAppointmentTypeEmailTemplateForThirdParty</assignedToTemplate>
+			<assignedToType>Queue</assignedToType>
+			<minutesToEscalation>600</minutesToEscalation>
+			<notifyCaseOwner>false</notifyCaseOwner>
+            	</escalationAction>
             <escalationStartTime>CaseCreation</escalationStartTime>
         </ruleEntry>
     </escalationRule>
