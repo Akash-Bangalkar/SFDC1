@@ -72,73 +72,7 @@
         <type>Flow</type>
     </selectableItems>
     <selectableItems>
-        <action>setup_bot__IntroBotAddCaseComment</action>
-        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
-        <isFrequentAction>false</isFrequentAction>
-        <type>Flow</type>
-    </selectableItems>
-    <selectableItems>
-        <action>setup_bot__IntroBotCreateCase</action>
-        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
-        <isFrequentAction>false</isFrequentAction>
-        <type>Flow</type>
-    </selectableItems>
-    <selectableItems>
-        <action>setup_bot__IntroBotCreateLead</action>
-        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
-        <isFrequentAction>false</isFrequentAction>
-        <type>Flow</type>
-    </selectableItems>
-    <selectableItems>
-        <action>setup_bot__IntroBotPreChatContext</action>
-        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
-        <isFrequentAction>false</isFrequentAction>
-        <type>Flow</type>
-    </selectableItems>
-    <selectableItems>
-        <action>setup_bot__IntroBotLookupCase</action>
-        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
-        <isFrequentAction>false</isFrequentAction>
-        <type>Flow</type>
-    </selectableItems>
-    <selectableItems>
-        <action>setup_order_bot__IntroBotLookupOrder</action>
-        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
-        <isFrequentAction>false</isFrequentAction>
-        <type>Flow</type>
-    </selectableItems>
-    <selectableItems>
-        <action>runtime_industries_loyalty__Merge</action>
-        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
-        <isFrequentAction>false</isFrequentAction>
-        <type>Flow</type>
-    </selectableItems>
-    <selectableItems>
-        <action>New_Lead_Screen_Flow</action>
-        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
-        <isFrequentAction>false</isFrequentAction>
-        <type>Flow</type>
-    </selectableItems>
-    <selectableItems>
-        <action>runtime_industries_recurrence__Schdlr</action>
-        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
-        <isFrequentAction>false</isFrequentAction>
-        <type>Flow</type>
-    </selectableItems>
-    <selectableItems>
-        <action>setup_service_experience__Reset_Pwd</action>
-        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
-        <isFrequentAction>false</isFrequentAction>
-        <type>Flow</type>
-    </selectableItems>
-    <selectableItems>
-        <action>setup_service_experience__Verify_Cust</action>
-        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
-        <isFrequentAction>false</isFrequentAction>
-        <type>Flow</type>
-    </selectableItems>
-    <selectableItems>
-        <action>GuestCommunityCase</action>
+        <action>SendEmail</action>
         <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
         <isFrequentAction>false</isFrequentAction>
         <type>QuickAction</type>
@@ -150,69 +84,9 @@
         <type>QuickAction</type>
     </selectableItems>
     <selectableItems>
-        <action>NewAccount</action>
+        <action>New_Lead_Screen_Flow</action>
         <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
         <isFrequentAction>false</isFrequentAction>
-        <type>QuickAction</type>
-    </selectableItems>
-    <selectableItems>
-        <action>NewCase</action>
-        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
-        <isFrequentAction>false</isFrequentAction>
-        <type>QuickAction</type>
-    </selectableItems>
-    <selectableItems>
-        <action>NewCommunityCase</action>
-        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
-        <isFrequentAction>false</isFrequentAction>
-        <type>QuickAction</type>
-    </selectableItems>
-    <selectableItems>
-        <action>NewContact</action>
-        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
-        <isFrequentAction>false</isFrequentAction>
-        <type>QuickAction</type>
-    </selectableItems>
-    <selectableItems>
-        <action>NewEvent</action>
-        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
-        <isFrequentAction>false</isFrequentAction>
-        <type>QuickAction</type>
-    </selectableItems>
-    <selectableItems>
-        <action>NewGroup</action>
-        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
-        <isFrequentAction>false</isFrequentAction>
-        <type>QuickAction</type>
-    </selectableItems>
-    <selectableItems>
-        <action>NewLead</action>
-        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
-        <isFrequentAction>false</isFrequentAction>
-        <type>QuickAction</type>
-    </selectableItems>
-    <selectableItems>
-        <action>NewNote</action>
-        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
-        <isFrequentAction>false</isFrequentAction>
-        <type>QuickAction</type>
-    </selectableItems>
-    <selectableItems>
-        <action>NewOpportunity</action>
-        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
-        <isFrequentAction>false</isFrequentAction>
-        <type>QuickAction</type>
-    </selectableItems>
-    <selectableItems>
-        <action>NewTask</action>
-        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
-        <isFrequentAction>false</isFrequentAction>
-        <type>QuickAction</type>
-    </selectableItems>
-    <selectableItems>
-        <action>SendEmail</action>
-        <frequentActionSequenceNbr>0</frequentActionSequenceNbr>
-        <isFrequentAction>false</isFrequentAction>
-        <type>QuickAction</type>
+        <type>Flow</type>
     </selectableItems>
 </RecordActionDeployment>
